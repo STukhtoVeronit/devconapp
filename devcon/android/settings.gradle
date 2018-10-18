@@ -1,0 +1,3 @@
+rootProject.name = 'devcon'
+
+include ':app'
