@@ -25,9 +25,12 @@ and if it is kill process:
 `kill -9 <process name(15412)>`
 
 2.To run avd from console
-emulator -list-avds
-cd $ANDROID_HOME/tools && emulator -avd <Nexus_5X_API_24/or another avd>
-cd $ANDROID_HOME/tools && emulator -avd Nexus_5X_API_24
+
+2.1 `emulator -list-avds`
+
+2.2 `cd $ANDROID_HOME/tools && emulator -avd <Nexus_5X_API_24/or another avd>`
+
+2.3`cd $ANDROID_HOME/tools && emulator -avd Nexus_5X_API_24`
 
 _Reference link:_
 1. https://github.com/facebook/react-native/issues/19529
