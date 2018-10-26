@@ -32,5 +32,8 @@ and if it is kill process:
 
 2.3`cd $ANDROID_HOME/tools && emulator -avd Nexus_5X_API_24`
 
+3 Example how can bind persist to store. 
+link : https://github.com/ItsNoHax/EventFinder
+
 _Reference link:_
 1. https://github.com/facebook/react-native/issues/19529

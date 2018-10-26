@@ -47,4 +47,31 @@ export const goHome = () => Navigation.setRoot({
             ],
         }
     }
-})
+});
+
+export const goHomePage = (page = "Home") => Navigation.setRoot({
+    root: {
+        sideMenu: {
+	        left: {
+		        component: {
+		            name: "LeftDrawer"
+            }
+	        },
+	        center: {
+		        stack: {
+			        options: {},
+			        children: [{
+				        component: {
+					          name: page,
+                }
+			        }]
+		        }
+	        },
+	        right: {
+		        component: {
+			        name: "RightDrawer"
+            }
+	        }
+        }
+    }
+});
