@@ -16,7 +16,7 @@ export default class Home extends React.Component {
         return {
             topBar: {
                 title: {
-                    text: 'Home'
+                    text: 'Developers'
                 },
             }
         };
@@ -32,21 +32,22 @@ export default class Home extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Hello from Home screen.</Text>
-                <Button
-                    onPress={this.logout}
-                    title="Sign Out"
-                />
-                <Button
-                    onPress={() => {
-                        Navigation.push(this.props.componentId, {
-                            component: {
-                                name: 'Screen2',
-                            }
-                        });
-                    }}
-                    title="View next screen"
-                />
+
+                {/*<Text>Hello from Home screen.</Text>*/}
+                {/*<Button*/}
+                    {/*onPress={this.logout}*/}
+                    {/*title="Sign Out"*/}
+                {/*/>*/}
+                {/*<Button*/}
+                    {/*onPress={() => {*/}
+                        {/*Navigation.push(this.props.componentId, {*/}
+                            {/*component: {*/}
+                                {/*name: 'Screen2',*/}
+                            {/*}*/}
+                        {/*});*/}
+                    {/*}}*/}
+                    {/*title="View next screen"*/}
+                {/*/>*/}
             </View>
         )
     }
@@ -58,4 +59,4 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     }
-})
+});
